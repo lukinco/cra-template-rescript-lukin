@@ -6,46 +6,18 @@
       "test": "rescripts test",
       "bsb": "bsb -w",
       "bsb:build": "bsb -make-world",
-      "bsb:clean": "bsb -clean"
+      "bsb:clean": "bsb -clean",
+      "postinstall": "yarn bsb:build"
     },
     "dependencies": {
       "@rescripts/cli": "0.0.14",
       "@rescripts/rescript-env": "0.0.12",
       "bs-platform": "8.2.0",
-      "reason-react": "0.9.1"
-    },
-    "eslintConfig": {
-      "extends": [
-        "react-app",
-        "standard",
-        "standard-react"
-      ],
-      "rules": {
-        "comma-dangle": [
-          "error",
-          {
-            "arrays": "always-multiline",
-            "objects": "always-multiline",
-            "imports": "always-multiline",
-            "exports": "always-multiline",
-            "functions": "never"
-          }
-        ]
-      },
-      "plugins": [
-        "only-warn"
-      ]
+      "reason-react": "0.9.1",
+      "bs-css-emotion": "1.2.0"
     },
     "rescripts": [
       "env"
-    ],
-    "standard": {
-      "parser": "babel-eslint",
-      "globals": [
-        "fetch",
-        "test",
-        "expect"
-      ]
-    }
+    ]
   }
 }

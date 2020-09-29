@@ -1,6 +1,6 @@
 {
-  "name": "@lukinco/cra-reasonml-template-lukin",
-  "version": "0.0.1",
+  "name": "@lukinco/cra-template-rescript-lukin",
+  "version": "0.0.3",
   "description": "The Lukin Co. template for Create React App and ReScript",
   "scripts": {
     "postversion": "npm publish --access=public"
