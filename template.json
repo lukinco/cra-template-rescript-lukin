@@ -1,10 +1,11 @@
 {
   "package": {
     "scripts": {
-      "start": "rescripts start",
+      "start": "concurrently \"yarn bsb\" \"yarn start:rescripts\"",
       "build": "yarn bsb:build && rescripts build",
       "test": "rescripts test",
       "bsb": "bsb -w",
+      "start:rescripts": "rescripts start",
       "bsb:build": "bsb -make-world",
       "bsb:clean": "bsb -clean",
       "postinstall": "yarn bsb:build"
@@ -14,7 +15,8 @@
       "@rescripts/rescript-env": "0.0.12",
       "bs-platform": "8.2.0",
       "reason-react": "0.9.1",
-      "bs-css-emotion": "1.2.0"
+      "bs-css-emotion": "1.2.0",
+      "concurrently": "5.3.0"
     },
     "rescripts": [
       "env"
