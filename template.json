@@ -2,7 +2,7 @@
   "package": {
     "scripts": {
       "start": "rescripts start",
-      "build": "rescripts build",
+      "build": "yarn bsb:build && rescripts build",
       "test": "rescripts test",
       "bsb": "bsb -w",
       "bsb:build": "bsb -make-world",
