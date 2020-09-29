@@ -4,7 +4,7 @@
       "start": "concurrently \"yarn bsb\" \"yarn start:rescripts\"",
       "build": "yarn bsb:build && rescripts build",
       "test": "rescripts test",
-      "bsb": "bsb -w",
+      "bsb": "bsb -make-world -w",
       "start:rescripts": "rescripts start",
       "bsb:build": "bsb -make-world",
       "bsb:clean": "bsb -clean",
