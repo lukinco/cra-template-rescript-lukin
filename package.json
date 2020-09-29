@@ -1,6 +1,6 @@
 {
   "name": "@lukinco/cra-rescript-template-lukin",
-  "version": "0.3.0",
+  "version": "0.0.1",
   "description": "The Lukin Co. template for Create React App and ReScript",
   "scripts": {
     "postversion": "npm publish --access=public"
