@@ -1,5 +1,5 @@
 {
-  "name": "@lukinco/cra-rescript-template-lukin",
+  "name": "@lukinco/cra-reasonml-template-lukin",
   "version": "0.0.1",
   "description": "The Lukin Co. template for Create React App and ReScript",
   "scripts": {
