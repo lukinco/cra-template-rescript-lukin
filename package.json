@@ -1,0 +1,35 @@
+{
+  "name": "@lukinco/cra-rescript-template-lukin",
+  "version": "0.3.0",
+  "description": "The Lukin Co. template for Create React App and ReScript",
+  "scripts": {
+    "postversion": "npm publish --access=public"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "reason-react",
+    "reason",
+    "reasonml",
+    "rescript-react",
+    "rescript"
+  ],
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukinco/cra-rescript-template-lukin.git",
+    "directory": "cra-template-lukin"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/lukinco/cra-rescript-template-lukin/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
